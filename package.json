@@ -1,0 +1,10 @@
+{
+  "name": "frontend-project-44",
+  "lockfileVersion": 2,
+  "requires": true,
+  "type": "module",
+  "packages": {},
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
