@@ -4,3 +4,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/02c877ec775f9f70df75/maintainability)](https://codeclimate.com/github/FarRodion/frontend-project-44/maintainability)
 
 https://asciinema.org/a/yi9d7E3AU4UsSaKQ1gQt8cB5P
+https://asciinema.org/a/oLIY9D2wZSiYw8W6CchQLK4co
