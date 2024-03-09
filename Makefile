@@ -1,5 +1,8 @@
 install:
 		npm ci
+#Право на запуск файла с корневой директории
+chmod:
+	chmod +x bin/brain-gcd.js 
 
 publish: 
 		npm publish --dry-run
@@ -21,4 +24,7 @@ brain-even:
 
 brain-calc:
 	node bin/brain-calc.js
+
+brain-gsd:
+	node bin/brain-gcd.js
 
