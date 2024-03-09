@@ -1,11 +1,11 @@
 install:
-		npm ci
+	npm ci
 #Право на запуск файла с корневой директории
 chmod:
 	chmod +x bin/brain-gcd.js 
 
 publish: 
-		npm publish --dry-run
+	npm publish --dry-run
 
 link:
 	 npm link
@@ -15,7 +15,12 @@ lint:
 
 lint-fix:
 	npx eslint --fix .
+asciinema-rec:
+	asciinema rec demo.cast
 
+asciinema-upload:
+	asciinema upload demo.cast
+	
 brain-games: 
 	node bin/brain-games.js	
 
@@ -27,4 +32,7 @@ brain-calc:
 
 brain-gsd:
 	node bin/brain-gcd.js
+
+brain-progression:
+	node bin/brain-progression.js
 
