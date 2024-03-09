@@ -15,12 +15,13 @@ lint:
 
 lint-fix:
 	npx eslint --fix .
+
 asciinema-rec:
-	asciinema rec demo.cast
+	asciinema rec prime.cast
 
 asciinema-upload:
-	asciinema upload demo.cast
-	
+	asciinema upload prime.cast
+
 brain-games: 
 	node bin/brain-games.js	
 
@@ -35,4 +36,7 @@ brain-gsd:
 
 brain-progression:
 	node bin/brain-progression.js
+
+brain-prime:
+	node bin/brain-prime.js
 
