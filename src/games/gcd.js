@@ -12,12 +12,14 @@ const getGCD = (num1, num2) => {
   return (num1 + num2);
 };
 
+const description = 'Find the greatest common divisor of given numbers.';
+
 const GSDMethod = () => {
   const number1 = randomNum(0, 100);
   const number2 = randomNum(0, 100);
   const question = `${number1}  ${number2}`;
   const answer = String(getGCD(number1, number2));
-  return [question, answer];
+  return [description, question, answer];
 };
 
 export default GSDMethod;

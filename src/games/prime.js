@@ -10,10 +10,12 @@ const isPrime = (number) => {
   return true;
 };
 
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
 const isPrimeMethod = () => {
   const question = randomNum(2, 100);
   const answer = isPrime(question) === true ? 'yes' : 'no';
-  return [question, answer];
+  return [description, question, answer];
 };
 
 export default isPrimeMethod;

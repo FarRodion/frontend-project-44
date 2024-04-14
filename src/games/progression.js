@@ -1,6 +1,8 @@
 import { randomNum } from '../LogicGames.js';
 
 const progressionLen = 10;
+const description = 'What number is missing in the progression?';
+
 const generateProgression = () => {
   const step = randomNum(0, 10);
   const arrProgresiion = [];
@@ -12,7 +14,7 @@ const generateProgression = () => {
   const answer = String(arrProgresiion[hidenIndex]);
   arrProgresiion[hidenIndex] = '..';
   const question = arrProgresiion.join(' ');
-  return [question, answer];
+  return [description, question, answer];
 };
 
 export default generateProgression;

@@ -17,13 +17,15 @@ const calculate = (operator, num1, num2) => {
   return 'Incorrect operation';
 };
 
+const description = 'What is the result of the expression?';
+
 const calculationMethod = () => {
   const number1 = randomNum(0, 10);
   const number2 = randomNum(0, 10);
   const operation = randomOperator();
   const question = `${number1} ${operation} ${number2}`;
   const answer = String(calculate(operation, number1, number2));
-  return [question, answer];
+  return [description, question, answer];
 };
 
 export default calculationMethod;
